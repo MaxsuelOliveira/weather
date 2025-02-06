@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="weather-container">
+      <div
+        style="
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          margin: auto;
+          gap: 10px;
+        "
+      >
+        <i class="bi bi-geo-alt-fill"></i>
+
+        <div class="weather-intro">
+          <span class="weather-intro-text">Barreiras Bahia</span>
+          <span class="weather-intro-description">
+            Segunda-Feira, 15 de Junho
+          </span>
+        </div>
+      </div>
+
+      <div class="weather-info">
+        <h1>25°C</h1>
+        <div class="weather"></div>
+      </div>
+
+      <div class="weather-details">
+        <div class="weather-details-item">
+          <div>
+            <img src="./assets/icons/007-night.png" alt="" width="50" />
+            <span class="weather-details-item-title">Umidade</span>
+            <small class="weather-details-item-value">50%</small>
+          </div>
+        </div>
+
+        <div class="weather-details-item">
+          <div>
+            <img src="./assets/icons/004-hailstorm.png" alt="" width="50" />
+            <span class="weather-details-item-title">Pressão</span>
+            <small class="weather-details-item-value">1013 hPa</small>
+          </div>
+        </div>
+
+        <!-- other-location -->
+        <div class="weather-details-item">
+          <div>
+            <img src="assets/icons/002-cloudy-day.png" alt="" width="60" />
+            21°C
+          </div>
+          <div>
+            <span class="weather-details-item-title">Barreiras Bahia</span>
+            <small class="weather-details-item-value">Bahia, Brasil</small>
+            <small class="weather-details-item-value"
+              >Segunda, 10/02/2025 12:00</small
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-forecast">
+        <div class="weather-forecast-header">
+          <h2>Previsão de hoje</h2>
+          <button>Ver todas</button>
+        </div>
+
+        <div class="weather-forecast-content">
+          <div class="weather-forecast-item">
+            <b>12:00</b>
+            <img src="assets/icons/002-cloudy-day.png" alt="" width="60" />
+            <span>21°C</span>
+          </div>
+
+          <div class="weather-forecast-item">
+            <b>12:00</b>
+            <img src="assets/icons/002-cloudy-day.png" alt="" width="60" />
+            <span>21°C</span>
+          </div>
+
+          <div class="weather-forecast-item">
+            <b>12:00</b>
+            <img src="assets/icons/002-cloudy-day.png" alt="" width="60" />
+            <span>21°C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
